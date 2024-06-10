@@ -91,6 +91,7 @@ button:active {
       gap: 5px;
       grid-column: auto;
       grid-template-areas: none;
+      text-align: center;
 
     }
 
@@ -100,3 +101,4 @@ button:active {
     }
 
   }
+}
