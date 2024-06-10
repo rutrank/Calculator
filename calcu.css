@@ -75,3 +75,26 @@ button:active {
 .operator-btn:active {
   background-color: rgba(255, 166, 0, 0.342);
 }
+
+@media(max-width:512px) {
+
+  body {
+    background-color: grey;
+  }
+
+  #calculator #keys #display {
+
+    max-width: 380px;
+
+  }
+
+  #keys {
+    padding: 2px;
+    gap: 5px;
+  }
+
+  #display {
+    padding: 2px;
+  }
+
+}
