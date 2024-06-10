@@ -85,17 +85,18 @@ button:active {
   #calculator {
     overflow: visible;
 
+
+    #keys {
+      padding: 0px;
+      gap: 5px;
+      grid-column: auto;
+      grid-template-areas: none;
+
+    }
+
+    #display {
+      padding: 2px;
+
+    }
+
   }
-
-  #keys {
-    padding: 0px;
-    gap: 5px;
-    grid-template-columns: repeat(4, 0.1fr);
-  }
-
-  #display {
-    padding: 2px;
-
-  }
-
-}
