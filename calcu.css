@@ -79,22 +79,23 @@ button:active {
 @media(max-width:512px) {
 
   body {
-    background-color: grey;
+    display: flex;
   }
 
-  #calculator #keys #display {
-
-    max-width: 380px;
+  #calculator {
+    overflow: visible;
 
   }
 
   #keys {
-    padding: 2px;
+    padding: 0px;
     gap: 5px;
+    grid-template-columns: repeat(4, 0.1fr);
   }
 
   #display {
     padding: 2px;
+
   }
 
 }
